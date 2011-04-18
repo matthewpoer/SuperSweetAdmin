@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca539d4-7ce9-4e36-b4b2-bcfc681935b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/modules/Administration/UpgradeHistoryvardefs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/modules/Import/UsersLastImportvardefs.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/js/style.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\dashlets\dashlets.php" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.php" afterPath="" />
@@ -30,96 +25,6 @@
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%B0^B0C^B0C26FA2%%UserPostForm.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%B2^B2D^B2D58405%%adminwizard.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%D4^D4D^D4D49BFB%%PackageForm.tpl.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/jsLanguage/Administration/en_us.js" afterPath="$PROJECT_DIR$/cache/jsLanguage/Administration/en_us.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ACLActions/ACLActionvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ACLActions/ACLActionvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ACLRoles/ACLRolevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ACLRoles/ACLRolevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Accounts/Accountvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Accounts/Accountvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Accounts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Accounts/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Administration/Administrationvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Administration/Administrationvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Bugs/Bugvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Bugs/Bugvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Bugs/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Bugs/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Calendar/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Calendar/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Calls/Callvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Calls/Callvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Calls/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Calls/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/CampaignLog/CampaignLogvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/CampaignLog/CampaignLogvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/CampaignTrackers/CampaignTrackervardefs.php" afterPath="$PROJECT_DIR$/cache/modules/CampaignTrackers/CampaignTrackervardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Campaigns/Campaignvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Campaigns/Campaignvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Campaigns/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Campaigns/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Cases/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Cases/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Contacts/Contactvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Contacts/Contactvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Contacts/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Contacts/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Currencies/Currencyvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Currencies/Currencyvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/DocumentRevisions/DocumentRevisionvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/DocumentRevisions/DocumentRevisionvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Documents/Documentvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Documents/Documentvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Documents/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Documents/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/DynamicFields/FieldsMetaDatavardefs.php" afterPath="$PROJECT_DIR$/cache/modules/DynamicFields/FieldsMetaDatavardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EAPM/EAPMvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/EAPM/EAPMvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EAPM/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/EAPM/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EmailAddresses/EmailAddressvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/EmailAddresses/EmailAddressvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EmailMan/EmailManvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/EmailMan/EmailManvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EmailMarketing/EmailMarketingvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/EmailMarketing/EmailMarketingvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EmailTemplates/EmailTemplatevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/EmailTemplates/EmailTemplatevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/EmailTemplates/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/EmailTemplates/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Emails/Emailvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Emails/Emailvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Emails/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Emails/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Employees/Employeevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Employees/Employeevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Home/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Home/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Import/ImportMapvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Import/ImportMapvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/InboundEmail/InboundEmailvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/InboundEmail/InboundEmailvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/InboundEmail/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/InboundEmail/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Leads/Leadvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Leads/Leadvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Leads/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Leads/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Meetings/Meetingvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Meetings/Meetingvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Meetings/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Meetings/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Notes/Notevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Notes/Notevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Notes/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Notes/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Opportunities/Opportunityvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Opportunities/Opportunityvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Opportunities/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Opportunities/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ProjectTask/ProjectTaskvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ProjectTask/ProjectTaskvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ProjectTask/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/ProjectTask/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Project/Projectvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Project/Projectvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Project/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Project/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ProspectLists/ProspectListvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ProspectLists/ProspectListvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ProspectLists/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/ProspectLists/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Prospects/Prospectvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Prospects/Prospectvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Prospects/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Prospects/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Relationships/Relationshipvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Relationships/Relationshipvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Releases/Releasevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Releases/Releasevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Roles/Rolevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Roles/Rolevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/SavedSearch/SavedSearchvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/SavedSearch/SavedSearchvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/SavedSearch/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SavedSearch/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/SchedulersJobs/SchedulersJobvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/SchedulersJobs/SchedulersJobvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Schedulers/schedulersvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Schedulers/schedulersvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/SugarFeed/SugarFeedvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/SugarFeed/SugarFeedvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/SugarFeed/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/SugarFeed/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Tasks/Taskvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Tasks/Taskvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Tasks/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Tasks/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Trackers/Trackervardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Trackers/Trackervardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/UserPreferences/UserPreferencevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/UserPreferences/UserPreferencevardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Users/Uservardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Users/Uservardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Users/language/en_us.lang.php" afterPath="$PROJECT_DIR$/cache/modules/Users/language/en_us.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Versions/Versionvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Versions/Versionvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/vCals/vCalvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/vCals/vCalvardefs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%02^028^028621F5%%_head.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%02^028^028621F5%%_head.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%11^11D^11D01271%%_headerLastViewed.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%11^11D^11D01271%%_headerLastViewed.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%32^326^32652D0B%%_headerModuleList.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%32^326^32652D0B%%_headerModuleList.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%41^41B^41B80544%%_companyLogo.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%41^41B^41B80544%%_companyLogo.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%65^65F^65F5B44D%%_welcome.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%65^65F^65F5B44D%%_welcome.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%7C^7C0^7C03C2FE%%footer.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%7C^7C0^7C03C2FE%%footer.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%85^85B^85B0F62F%%header.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%85^85B^85B0F62F%%header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%90^907^907DE8A4%%_headerSearch.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%90^907^907DE8A4%%_headerSearch.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%92^92B^92BA0B0A%%_globalLinks.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%92^92B^92BA0B0A%%_globalLinks.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%9A^9A2^9A271045%%index.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%9A^9A2^9A271045%%index.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/smarty/templates_c/%%AF^AF9^AF9D827F%%_headerShortcuts.tpl.php" afterPath="$PROJECT_DIR$/cache/smarty/templates_c/%%AF^AF9^AF9D827F%%_headerShortcuts.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/css/deprecated.css" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/css/deprecated.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/css/style.css" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/css/yui.css" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/css/yui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
     </list>
     <ignored path="SuperSweetAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -172,7 +77,7 @@
       <file leaf-file-name="supersweetadmin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06049822">
+            <state line="3" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.090747334">
               <folding />
             </state>
           </provider>
@@ -460,7 +365,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -542,7 +447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06049822">
+        <state line="3" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.090747334">
           <folding />
         </state>
       </provider>
