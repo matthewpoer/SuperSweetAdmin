@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca539d4-7ce9-4e36-b4b2-bcfc681935b8" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\dashlets\dashlets.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\jsLanguage\Configurator\en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\jsLanguage\Home\en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\jsLanguage\Users\en_us.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\Cases\Casevardefs.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\Configurator\language\en_us.lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\Relationships\relationships.cache.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\Schedulers\language\en_us.lang.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\SugarFeed\linkTypeCache.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\SugarFeed\moduleCache.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%14^148^14804A90%%DashletGenericDisplay.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%35^359^359DFA93%%MySugar.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%47^472^472B27CC%%forEditView.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%66^663^663462F8%%login.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%66^664^664FA3FD%%PackageManagerScripts.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%74^74F^74FBB9DE%%DashletGenericAutoRefresh.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%8F^8FE^8FE02532%%wizard.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%AE^AE9^AE9373ED%%SugarFeedScript.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%B0^B0C^B0C26FA2%%UserPostForm.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%B2^B2D^B2D58405%%adminwizard.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%D4^D4D^D4D49BFB%%PackageForm.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\modules\Administration\language\en_us.lang.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/Administration/Administrationvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/Administration/Administrationvardefs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" />
     </list>
     <ignored path="SuperSweetAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +36,7 @@
       <file leaf-file-name="SuperSweetAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+            <state line="8" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +45,7 @@
       <file leaf-file-name="administration.ext.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+            <state line="11" column="59" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -74,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="supersweetadmin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="supersweetadmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.090747334">
+            <state line="13" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,7 +72,25 @@
       <file leaf-file-name="en_us.SuperSweetAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="45" selection-start="81" selection-end="112" vertical-scroll-proportion="0.0">
+            <state line="2" column="49" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_us.lang.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1019" column="44" selection-start="73947" selection-end="73947" vertical-scroll-proportion="0.6798493">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="en_us.lang.ext.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="49" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,12 +110,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
         <option value="$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php" />
-        <option value="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" />
-        <option value="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
         <option value="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php" />
+        <option value="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+        <option value="$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php" />
       </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="localhost" name="localhost" />
     </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -228,10 +239,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -262,10 +269,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Extension" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -277,8 +280,84 @@
               <option name="myItemId" value="Ext" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cache" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="language" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,9 +368,10 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="git4idea.config.GitVcsConfigurable" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="SmarterSystems" serverId="740f490a-5bbb-440c-a390-6a5c2105e23b">
     <servers>
@@ -304,11 +384,11 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Web Application.SuperSweetAdmin">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
       <method>
         <option name="FtpUpload" enabled="false">
           <server_id />
@@ -316,7 +396,32 @@
         </option>
       </method>
     </configuration>
-    <list size="0" />
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="740f490a-5bbb-440c-a390-6a5c2105e23b" server_name="SmarterSystems">
+      <method>
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="SuperSweetAdmin" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/SuperSweetAdmin">
+      <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.SuperSweetAdmin" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
@@ -365,20 +470,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6706282" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32088286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -419,35 +524,47 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="8" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+        <state line="11" column="59" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="48" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+        <state line="1" column="48" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="49" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="45" selection-start="81" selection-end="112" vertical-scroll-proportion="0.0">
+        <state line="2" column="49" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
+    <entry file="file://$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="89" selection-end="89" vertical-scroll-proportion="0.090747334">
+        <state line="1019" column="44" selection-start="73947" selection-end="73947" vertical-scroll-proportion="0.6798493">
           <folding />
         </state>
       </provider>
