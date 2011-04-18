@@ -1,0 +1,10 @@
+
+# BEGIN SUGARCRM RESTRICTIONS
+RedirectMatch 403 (?i).*\.log$
+RedirectMatch 403 (?i)/+not_imported_.*\.txt
+RedirectMatch 403 (?i)/+(soap|cache|xtemplate|data|examples|include|log4php|metadata|modules)/+.*\.(php|tpl)
+RedirectMatch 403 (?i)/+emailmandelivery\.php
+RedirectMatch 403 (?i)/+cache/+upload
+RedirectMatch 403 (?i)/+cache/+diagnostic
+RedirectMatch 403 (?i)/+files\.md5$
+# END SUGARCRM RESTRICTIONS
