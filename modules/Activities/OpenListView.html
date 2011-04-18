@@ -1,0 +1,117 @@
+admin	<!--
+/*********************************************************************************
+ * SugarCRM is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2011 SugarCRM Inc.
+ * 
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ * 
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * 
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ * 
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo. If the display of the logo is not reasonably feasible for
+ * technical reasons, the Appropriate Legal Notices must display the words
+ * "Powered by SugarCRM".
+ ********************************************************************************/
+
+/*********************************************************************************
+ * {APP.LBL_CURRENCY_SYM}Header: /cvsroot/sugarcrm/sugarcrm/modules/Activities/OpenListView.html,v 1.1 2004/07/02 07:32:20 sugarclint Exp {APP.LBL_CURRENCY_SYM}
+ ********************************************************************************/
+-->
+<!-- BEGIN: open_activity -->
+<script type="text/javascript" src="include/JSON.js"></script>
+<script type="text/javascript" src="include/jsolait/init.js"></script>
+<script type="text/javascript">{JSON_CONFIG_JAVASCRIPT}</script>
+<script type="text/javascript" src="include/javascript/jsclass_base.js"></script>
+<script type="text/javascript" src="include/javascript/jsclass_async.js"></script>
+
+<script>
+
+//var global_request_registry = new Object();
+
+function ResponseObj()
+{
+}
+
+ResponseObj.prototype.response = function (result) {
+ if ( result.status == 'success')
+
+ {
+   if ( result.accept_status == 'decline')
+   {
+    //alert("The invitation has been declined");
+    var elem = document.getElementById('accept'+result.record);
+    elem.innerHTML= "Declined";
+   } else if ( result.accept_status == 'tentative') {
+    //alert("The invitation has been tentatively accepted");
+    var elem = document.getElementById('accept'+result.record);
+    elem.innerHTML= "Tentative";
+   } else {
+    //alert("The invitation has been accepted");
+    var elem = document.getElementById('accept'+result.record);
+    elem.innerHTML= "Accepted";
+   }
+ }
+ else
+ {
+   alert("There was an internal error: ");
+ }
+}
+
+function setAcceptStatus(module,id,status)
+{
+
+  query = {"module":module,"record":id,"accept_status":status};
+      //rpcClient.call_method('query',request);
+      req_id = global_rpcClient.call_method('set_accept_status',query);
+      var res = new ResponseObj();
+      global_request_registry[req_id] = [ res,'response'];
+
+
+}
+</script>
+
+<table cellpadding="0" cellspacing="0" width="100%" border="0" class="list view">
+	<tr height="20" >
+
+		<td width="2%" ><img src="include/images/blank.gif" widht="1" height="1" alt=""></td>
+		<td  scope="col" width="1%" >{MOD.LBL_LIST_CLOSE}</td>
+		<td scope="col" width="34%" >{MOD.LBL_LIST_SUBJECT}</td>
+		<td scope="col" width="10%" >{MOD.LBL_LIST_DATE}</td>
+		<td scope="col" width="10%" >{MOD.LBL_ACCEPT_THIS}</td>
+	  </tr>
+
+
+<!-- BEGIN: row -->
+<tr height="20" class="{ROW_COLOR}S1">
+	<td nowrap="nowrap" valign="top">{ACTIVITY_MODULE_PNG}</td>
+	<td nowrap="nowrap" valign="top" align='center'>{ACTIVITY.SET_COMPLETE}</td>
+	<td scope='row' nowrap="nowrap" valign="top"><{ACTIVITY.TAG} title="{ACTIVITY.TITLE}" href="{URL_PREFIX}index.php?action=DetailView&module={ACTIVITY.MODULE}&record={ACTIVITY.ID}{RETURN_URL}"  >{ACTIVITY.NAME}</{TAG.MAIN}></td>
+	<td nowrap="nowrap" valign="top">{ACTIVITY.TIME}</td>
+	<td nowrap="nowrap" valign="top">{ACTIVITY.SET_ACCEPT_LINKS}</td>
+</tr>
+
+<!-- END: row -->
+
+	</table>
+<!-- END: open_activity -->

@@ -1,0 +1,9 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 3.0.0
+build: 1549
+//Commented out until YUI 3 overlay classes no longer conflicts with the YUI 2 overlay css
+
+.yui-overlay{position:absolute;}.yui-overlay-hidden{visibility:hidden;}*/
