@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["Note"] = array (
   'table' => 'notes',
   'unified_search' => true,
@@ -512,5 +512,6 @@ $GLOBALS["dictionary"]["Note"] = array (
   array (
     'assignable' => 'assignable',
   ),
+  'custom_fields' => false,
 );
 ?>

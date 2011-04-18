@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["Project"] = array (
   'table' => 'project',
   'unified_search' => true,
@@ -459,5 +459,6 @@ $GLOBALS["dictionary"]["Project"] = array (
       'relationship_type' => 'one-to-many',
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

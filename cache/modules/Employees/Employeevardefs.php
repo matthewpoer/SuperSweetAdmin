@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:24
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["Employee"] = array (
   'table' => 'users',
   'fields' => 
@@ -611,5 +611,6 @@ $GLOBALS["dictionary"]["Employee"] = array (
       'relationship_role_column_value' => '1',
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

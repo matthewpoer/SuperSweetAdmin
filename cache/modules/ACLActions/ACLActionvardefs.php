@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:22
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["ACLAction"] = array (
   'table' => 'acl_actions',
   'comment' => 'Determine the allowable actions available to users',
@@ -142,5 +142,6 @@ $GLOBALS["dictionary"]["ACLAction"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

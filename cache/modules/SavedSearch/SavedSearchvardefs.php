@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:24
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["SavedSearch"] = array (
   'table' => 'saved_search',
   'fields' => 
@@ -132,5 +132,6 @@ $GLOBALS["dictionary"]["SavedSearch"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

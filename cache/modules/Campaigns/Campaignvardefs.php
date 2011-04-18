@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["Campaign"] = array (
   'audited' => true,
   'comment' => 'Campaigns are a series of operations undertaken to accomplish a purpose, usually acquiring leads',
@@ -597,5 +597,6 @@ $GLOBALS["dictionary"]["Campaign"] = array (
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );
 ?>

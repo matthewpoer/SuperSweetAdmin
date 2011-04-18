@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["CampaignTracker"] = array (
   'table' => 'campaign_trkrs',
   'comment' => 'Maintains the Tracker URLs used in campaign emails',
@@ -151,5 +151,6 @@ $GLOBALS["dictionary"]["CampaignTracker"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:22
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["ACLRole"] = array (
   'table' => 'acl_roles',
   'comment' => 'ACL Role definition',
@@ -120,5 +120,6 @@ $GLOBALS["dictionary"]["ACLRole"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

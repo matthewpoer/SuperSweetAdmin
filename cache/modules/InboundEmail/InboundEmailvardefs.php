@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:24
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["InboundEmail"] = array (
   'table' => 'inbound_email',
   'comment' => 'Inbound email parameters',
@@ -277,5 +277,6 @@ $GLOBALS["dictionary"]["InboundEmail"] = array (
       'relationship_type' => 'one-to-one',
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

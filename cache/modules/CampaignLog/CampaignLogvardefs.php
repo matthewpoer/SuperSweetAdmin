@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["CampaignLog"] = array (
   'audited' => false,
   'comment' => 'Tracks items of interest that occurred after you send an email campaign',
@@ -300,5 +300,6 @@ $GLOBALS["dictionary"]["CampaignLog"] = array (
       'relationship_type' => 'one-to-many',
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

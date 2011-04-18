@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:23
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["EmailTemplate"] = array (
   'table' => 'email_templates',
   'comment' => 'Templates used in email processing',
@@ -196,5 +196,6 @@ $GLOBALS["dictionary"]["EmailTemplate"] = array (
       'relationship_type' => 'one-to-many',
     ),
   ),
+  'custom_fields' => false,
 );
 ?>

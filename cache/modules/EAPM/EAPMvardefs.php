@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:25
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["EAPM"] = array (
   'table' => 'eapm',
   'audited' => true,
@@ -385,5 +385,6 @@ $GLOBALS["dictionary"]["EAPM"] = array (
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );
 ?>

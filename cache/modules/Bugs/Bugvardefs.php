@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:22
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["Bug"] = array (
   'table' => 'bugs',
   'audited' => true,
@@ -632,5 +632,6 @@ $GLOBALS["dictionary"]["Bug"] = array (
     'assignable' => 'assignable',
     'basic' => 'basic',
   ),
+  'custom_fields' => false,
 );
 ?>

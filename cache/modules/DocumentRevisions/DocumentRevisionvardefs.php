@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:20:24
+// created: 2011-04-18 14:59:44
 $GLOBALS["dictionary"]["DocumentRevision"] = array (
   'table' => 'document_revisions',
   'fields' => 
@@ -222,5 +222,6 @@ $GLOBALS["dictionary"]["DocumentRevision"] = array (
       ),
     ),
   ),
+  'custom_fields' => false,
 );
 ?>
