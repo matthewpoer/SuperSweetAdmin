@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eca539d4-7ce9-4e36-b4b2-bcfc681935b8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/modules/Administration/UpgradeHistoryvardefs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/modules/Import/UsersLastImportvardefs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/js/style.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\dashlets\dashlets.php" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.js" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\include\externalAPI.cache.php" afterPath="" />
@@ -26,6 +31,7 @@
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%B2^B2D^B2D58405%%adminwizard.tpl.php" afterPath="" />
       <change type="DELETED" beforePath="C:\wamp\www\SuperSweetAdmin\cache\smarty\templates_c\%%D4^D4D^D4D49BFB%%PackageForm.tpl.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/jsLanguage/Administration/en_us.js" afterPath="$PROJECT_DIR$/cache/jsLanguage/Administration/en_us.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ACLActions/ACLActionvardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ACLActions/ACLActionvardefs.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/modules/ACLRoles/ACLRolevardefs.php" afterPath="$PROJECT_DIR$/cache/modules/ACLRoles/ACLRolevardefs.php" />
@@ -112,6 +118,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/css/style.css" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/css/yui.css" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/css/yui.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" afterPath="$PROJECT_DIR$/cache/themes/Sugar5/pathCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
     </list>
     <ignored path="SuperSweetAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,10 +142,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SuperSweetAdmin.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SuperSweetAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.24199288">
+            <state line="10" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="administration.ext.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry_point_registry.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="48" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supersweetadmin.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="27" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06049822">
               <folding />
             </state>
           </provider>
@@ -167,6 +202,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php" />
         <option value="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
       </list>
     </option>
@@ -246,6 +284,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SuperSweetAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Administration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,7 +459,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,6 +512,27 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="7" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="48" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="45" selection-start="81" selection-end="112" vertical-scroll-proportion="0.0">
@@ -459,9 +540,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
+    <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="282" selection-end="282" vertical-scroll-proportion="0.24199288">
+        <state line="2" column="27" selection-start="88" selection-end="88" vertical-scroll-proportion="0.06049822">
           <folding />
         </state>
       </provider>

@@ -1,10 +1,10 @@
 <?php
 $admin_options_defs=array();
 $admin_options_defs['Administration']['SuperSweetAdmin']=array(
-        'Upgrade',
+        'Administration',
         'LBL_SUPERSWEETADMIN_ENTRY_TITLE',
         'LBL_SUPERSWEETADMIN_DESC',
-        './index.php?module=AI_Dev2Prod&action=Start'
+        './index.php?module=Administration&entryPoint=SuperSweetAdmin'
 );
 $admin_group_header[]=array(
     'LBL_SUPERSWEETADMIN_TITLE',
