@@ -1,5 +1,5 @@
 <?php
-// created: 2011-04-18 14:59:44
+// created: 2011-05-02 11:43:12
 $GLOBALS["dictionary"]["Campaign"] = array (
   'audited' => true,
   'comment' => 'Campaigns are a series of operations undertaken to accomplish a purpose, usually acquiring leads',

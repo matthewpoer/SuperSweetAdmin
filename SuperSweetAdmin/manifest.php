@@ -13,13 +13,13 @@ $manifest = array (
 	'readme'=>'',
 	'key'=>'PSI',
 	'author' => 'Matt Poer <mpoer@profilingsolutions.com>',
-	'description' => 'Add a few extra configuration options that were left out of the SugarCRM Admin page',
+	'description' => 'Adding access to extra Sugar configuration options and phpinfo output.',
 	'icon' => '',
 	'is_uninstallable' => true,
 	'name' => 'SuperSweetAdmin',
-	'published_date' => '2011-04-18 16:00:00',
+	'published_date' => '2011-05-02 08:00:00',
 	'type' => 'module',
-	'version' => '1.0',
+	'version' => '1.1',
 );
 $installdefs = array (
 'id' => 'SuperSweetAdmin',

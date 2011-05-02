@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-18 14:59:50
+<?php /* Smarty version 2.6.11, created on 2011-05-02 11:43:34
          compiled from themes/Sugar5/tpls/_headerShortcuts.tpl */ ?>
 <?php if (count ( $this->_tpl_vars['SHORTCUT_MENU'] ) > 0 && $this->_tpl_vars['MODULE_TAB'] != 'Home'): ?>
 <div id="shortcuts" class="headerList">
@@ -17,4 +17,4 @@
     <?php endforeach; endif; unset($_from); ?>
     </span>
 </div>
-<?php endif; ?>
+<?php endif; ?>

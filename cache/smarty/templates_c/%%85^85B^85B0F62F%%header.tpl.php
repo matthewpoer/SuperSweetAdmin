@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-18 14:59:50
+<?php /* Smarty version 2.6.11, created on 2011-05-02 11:43:34
          compiled from themes/Sugar5/tpls/header.tpl */ ?>
 <?php $_smarty_tpl_vars = $this->_tpl_vars;
 $this->_smarty_include(array('smarty_include_tpl_file' => "themes/Sugar5/tpls/_head.tpl", 'smarty_include_vars' => array()));
@@ -57,4 +57,4 @@ unset($_smarty_tpl_vars);
 
 <div id="main">
     <div id="content" <?php if (! $this->_tpl_vars['AUTHENTICATED']): ?>class="noLeftColumn" <?php endif; ?>>
-        <table style="width:100%"><tr><td>
+        <table style="width:100%"><tr><td>

@@ -1,0 +1,5 @@
+1.1
+Added phpinfo() menu option
+
+1.0
+Initial Release

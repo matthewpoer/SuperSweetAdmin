@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-18 14:59:45
+<?php /* Smarty version 2.6.11, created on 2011-05-02 11:43:15
          compiled from themes/Sugar5/tpls/footer.tpl */ ?>
 <!--end body panes-->
         </td></tr></table>
@@ -6,7 +6,8 @@
     <div class="clear"></div>
 </div>
 <div id="bottomLinks">
-<?php if ($this->_tpl_vars['AUTHENTICATED']):  echo $this->_tpl_vars['BOTTOMLINKS']; ?>
+<?php if ($this->_tpl_vars['AUTHENTICATED']): ?>
+<?php echo $this->_tpl_vars['BOTTOMLINKS']; ?>
 
 <?php endif; ?>
 </div>
@@ -20,4 +21,4 @@
 </div>
 
 </body>
-</html>
+</html>

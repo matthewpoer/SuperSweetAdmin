@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.11, created on 2011-04-18 14:59:50
+<?php /* Smarty version 2.6.11, created on 2011-05-02 11:43:34
          compiled from themes/Sugar5/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'themes/Sugar5/tpls/_headerModuleList.tpl', 71, false),)), $this); ?>
@@ -113,4 +113,4 @@ if ($this->_foreach['moduleList']['total'] > 0):
     <?php endif; ?>
 </ul>
 </div>
-<?php endif; ?>
+<?php endif; ?>
