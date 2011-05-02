@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eca539d4-7ce9-4e36-b4b2-bcfc681935b8" name="Default" comment="" />
+    <list default="true" id="eca539d4-7ce9-4e36-b4b2-bcfc681935b8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/SuperSweetAdmin_v1.0.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/custom/modules/Administration/entry_point_registry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/custom/modules/Administration/supersweetadmin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SuperSweetAdmin/manifest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" afterPath="$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" afterPath="$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php" />
+    </list>
     <ignored path="SuperSweetAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +36,7 @@
       <file leaf-file-name="SuperSweetAdmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+            <state line="11" column="7" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,7 +63,7 @@
       <file leaf-file-name="supersweetadmin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+            <state line="17" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -62,7 +72,7 @@
       <file leaf-file-name="en_us.SuperSweetAdmin.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="280" selection-end="280" vertical-scroll-proportion="0.18888889">
+            <state line="7" column="2" selection-start="352" selection-end="352" vertical-scroll-proportion="0.14637147">
               <folding />
             </state>
           </provider>
@@ -170,15 +180,15 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="165" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="835" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="840" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="835" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="161" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="159" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="SmarterSystems" serverId="740f490a-5bbb-440c-a390-6a5c2105e23b">
     <servers>
@@ -276,17 +286,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67911714" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24960254" sideWeight="0.67967856" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32088286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32032147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -331,16 +341,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Administration/SuperSweetAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="59" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
+        <state line="11" column="7" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Administration/administration.ext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="59" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="59" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/entry_point_registry.php">
@@ -350,28 +358,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/supersweetadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0">
+        <state line="17" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="352" selection-end="352" vertical-scroll-proportion="0.14637147">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/custom/modules/Administration/Ext/Language/en_us.lang.ext.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="49" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cache/modules/Administration/language/en_us.lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1019" column="44" selection-start="73947" selection-end="73947" vertical-scroll-proportion="0.6798493" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/Extension/modules/Administration/Ext/Language/en_us.SuperSweetAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="280" selection-end="280" vertical-scroll-proportion="0.18888889">
-          <folding />
-        </state>
+        <state line="5" column="49" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
   </component>

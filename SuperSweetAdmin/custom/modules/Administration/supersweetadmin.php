@@ -5,11 +5,6 @@ if (!is_admin($current_user)) sugar_die("Unauthorized access to administration."
 require_once('modules/Configurator/Configurator.php');
 global $sugar_config;
 
-if($_GET['phpinfo'] == 1){
-    phpinfo();
-    die();
-}
-
 $config = new Configurator;
 
 if(isset($_POST['supersweetadmin_save'])){
