@@ -1,3 +1,6 @@
+1.1a
+Added scrollbars and removed php notice on undefinied array index 'phpinfo'
+
 1.1
 Added phpinfo() menu option
 

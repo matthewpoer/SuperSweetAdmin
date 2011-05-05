@@ -17,9 +17,9 @@ $manifest = array (
 	'icon' => '',
 	'is_uninstallable' => true,
 	'name' => 'SuperSweetAdmin',
-	'published_date' => '2011-05-02 08:00:00',
+	'published_date' => '2011-05-05 08:00:00',
 	'type' => 'module',
-	'version' => '1.1',
+	'version' => '1.1b',
 );
 $installdefs = array (
 'id' => 'SuperSweetAdmin',

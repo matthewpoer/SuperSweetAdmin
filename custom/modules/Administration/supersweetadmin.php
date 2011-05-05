@@ -5,7 +5,7 @@ if (!is_admin($current_user)) sugar_die("Unauthorized access to administration."
 require_once('modules/Configurator/Configurator.php');
 global $sugar_config;
 
-if($_GET['phpinfo'] == 1){
+if(!empty($_GET['phpinfo']) && $_GET['phpinfo'] == 1){
     phpinfo();
     die();
 }
