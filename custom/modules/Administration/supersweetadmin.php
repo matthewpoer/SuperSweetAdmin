@@ -20,15 +20,21 @@ if(isset($_POST['supersweetadmin_save'])){
             'disable_count_query' => 'off'
         );
     }
+    $configurator = new Configurator();
 
-	// disable count query
-	$configurator = new Configurator();
+    // disable count query
 	if(isset($supersweetadmin['disable_count_query']) && ($supersweetadmin['disable_count_query'] == 'on')){
-		$disable_count_query = true;
+		$configurator->config['disable_count_query'] = true;
 	} else {
-		$disable_count_query = false;
+		$configurator->config['disable_count_query'] = false;
 	}
-	$configurator->config['disable_count_query'] = $disable_count_query;
+
+    // weak http referrers
+    if(isset($supersweetadmin['http_referer']['weak']) && ($supersweetadmin['http_referer']['weak'] == 'on')){
+        $configurator->config['http_referer']['weak'] = true;
+    } else {
+        $configurator->config['http_referer']['weak'] = false;
+    }
 
     // config any other options?
 
@@ -51,12 +57,27 @@ if($countquerys){
 	$countquerys_checked = "";
 }
 
+// checking value for Weak Http Referer
+if(isset($sugar_config['http_referer']['weak'])){
+    $http_referer_weak = $sugar_config['http_referer']['weak'];
+} else {
+    $http_referer_weak = false;
+}
+if($http_referer_weak){
+    $http_referer_weak_checked = 'CHECKED';
+} else {
+    $http_referer_weak_checked = '';
+}
+
 echo <<<CONFIGFORM
 <form id="" name="" method="POST" action="./index.php?module=Administration&entryPoint=SuperSweetAdmin">
     <input type='hidden' name='supersweetadmin_save' value='true' />
 
 	<input type='checkbox' name='supersweetadmin[disable_count_query]' $countquerys_checked />
 	<label for="supersweetadmin[disable_count_query]">Disable count queries?</label><br>
+
+    <input type='checkbox' name='supersweetadmin[http_referer][weak]' $http_referer_weak_checked />
+    <label for="supersweetadmin[http_referer][weak]">Weak Http Referrer?</label><br>
     
     <br>
     <input type='submit' value='Save Configuration' />
