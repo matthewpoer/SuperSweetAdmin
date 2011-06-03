@@ -1,3 +1,6 @@
+1.2
+Added Http Referrer's Weak setting
+
 1.1a
 Added scrollbars and removed php notice on undefinied array index 'phpinfo'
 
